@@ -1,0 +1,115 @@
+.button {
+  -fx-background-color: #2F80ED;
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+  -fx-padding: 8px 16px;
+  -fx-border-radius: 5px;
+}
+
+.button:hover {
+  -fx-background-color: #006DFF;
+  -fx-text-fill: white;
+}
+
+.root {
+  -fx-font-family: Arial;
+  -fx-padding: 20;
+  -fx-spacing: 10;
+  -fx-background-color: #f9f9f9;
+}
+
+.label {
+  -fx-font-size: 14;
+  -fx-text-fill: #333;
+}
+
+.title {
+  -fx-font-size: 24;
+  -fx-text-fill: #000;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 4, 0.5, 0, 2);
+}
+
+.subtitle {
+  -fx-font-size: 18;
+  -fx-text-fill: #666;
+  -fx-padding: 10 0 5 0;
+}
+
+.text-field {
+  -fx-background-color: transparent;
+  -fx-border-color: #ccc;
+  -fx-padding: 5;
+  -fx-border-radius: 12;
+  -fx-background-radius: 12;
+}
+
+.combo-box {
+  -fx-background-color: transparent;
+  -fx-border-color: #ccc;
+  -fx-padding: 3;
+  -fx-border-radius: 12;
+}
+
+
+.text-field:focused .text-field, .combo-box:focused .combo-box {
+  -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.hbox {
+  -fx-spacing: 15;
+}
+
+.vbox {
+  -fx-spacing: 10;
+}
+
+.save-button {
+  -fx-background-color: #50B83C;
+  -fx-text-fill: white;
+  -fx-font-size: 14;
+  -fx-padding: 8 15;
+  -fx-border-radius: 5;
+  -fx-background-radius: 5;
+  -fx-cursor: hand;
+}
+
+.save-button:hover {
+  -fx-background-color: #3A8C2E;
+  -fx-text-fill: white;
+}
+
+.date-picker {
+  -fx-background-color: transparent;
+  -fx-border-color: #ccc;
+  -fx-padding: 5;
+  -fx-border-radius: 15;
+  -fx-background-radius: 15;
+}
+
+.date-picker .arrow-button {
+  -fx-background-color: #cccccc;
+  -fx-text-fill: #000000;
+}
+
+.date-picker .calendar-pane {
+  -fx-background-color: #ffffff;
+}
+
+.date-picker .day-cell {
+  -fx-background-color: #f0f0f0;
+  -fx-text-fill: #000000;
+}
+
+.date-picker .day-cell:hover {
+  -fx-background-color: #d0d0d0;
+}
+
+.date-picker .day-cell.selected {
+  -fx-background-color: #333333;
+  -fx-text-fill: #ffffff;
+}
+
+.date-picker .month-year-pane .button {
+  -fx-background-color: #cccccc;
+  -fx-text-fill: #000000;
+}

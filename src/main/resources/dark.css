@@ -1,0 +1,216 @@
+/* Left Menu */
+.left-menu {
+  -fx-background-color: #1C1D22;
+  -fx-padding: 10px;
+  -fx-spacing: 10px;
+  -fx-pref-width: 20%;
+  -fx-pref-height: 100%;
+}
+
+/* Navigation Button */
+.nav-button {
+  -fx-background-color: transparent;
+  -fx-text-fill: #AAAAAA;
+  -fx-padding: 20px;
+  -fx-shape: "M 0 50 A 50 50 0 1 1 100 50 A 50 50 0 1 1 0 50 Z";
+}
+.nav-button.selected {
+  -fx-background-color: rgba(255, 255, 255, 0.1);
+  -fx-text-fill: #FFFFFF;
+}
+.nav-button:hover {
+  -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+.nav-button:pressed {
+  -fx-background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Top Bar */
+.top-bar {
+  -fx-background-color: #222327;
+  -fx-padding: 10px;
+  -fx-spacing: 10px;
+  -fx-alignment: center;
+}
+
+/* Top Bar Button */
+.top-bar-button {
+  -fx-background-color: transparent;
+  -fx-text-fill: #ffffff;
+  -fx-padding: 10px;
+}
+
+.top-bar-button ImageView {
+  -fx-effect: innershadow(gaussian, rgba(255, 255, 255, 1), 10, 0, 0, 0);
+}
+
+/* Welcome Text */
+.welcome-text {
+  -fx-font-size: 20px;
+  -fx-font-family: "Gill Sans", sans-serif;
+}
+
+/* Notification Menu */
+.notification-menu {
+  -fx-padding: 10px;
+  -fx-spacing: 10px;
+  -fx-font-family: "Gill Sans", sans-serif;
+  -fx-font-size: 14px;
+  -fx-background-radius: 8px;
+  -fx-background-color: #2C2D32;
+  -fx-border-radius: 8px;
+  -fx-border-color: #444444;
+  -fx-border-width: 1px;
+}
+
+/* Notification Header */
+.notification-header {
+  -fx-font-weight: bold;
+  -fx-fill: #FFFFFF;
+}
+
+/* Notification Description */
+.notification-description {
+  -fx-fill: #BBBBBB;
+}
+
+/* Notification Item */
+.notification-item {
+  -fx-background-color: transparent;
+  -fx-padding: 10px;
+  -fx-border-color: #444444;
+  -fx-border-width: 0 0 1px 0;
+}
+.notification-item:hover {
+  -fx-background-color: #3A3B41;
+}
+
+/* Notification Menu Item Separator */
+.separator-menu-item {
+  -fx-background-color: #333333;
+  -fx-padding: 5px;
+  -fx-border-color: transparent;
+}
+
+/* Login/Register Button */
+.loginRegisterButton {
+  -fx-background-color:#A020F0;
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+  -fx-border-radius: 5px;
+  -fx-padding: 10px 20px;
+}
+.loginRegisterButton:hover {
+  -fx-background-color: #831ac5;
+}
+
+/* Pill Toggle */
+.pill-toggle {
+  -fx-background-color: transparent;
+  -fx-text-fill: #CCCCCC;
+  -fx-font-size: 14px;
+  -fx-background-radius: 20;
+  -fx-border-radius: 20;
+  -fx-border-color: transparent;
+  -fx-border-width: 1px;
+  -fx-padding: 5 14;
+  -fx-cursor: hand;
+}
+.pill-toggle:selected {
+  -fx-background-color: #333333;
+  -fx-text-fill: #FFFFFF;
+  -fx-padding: 6 16;
+}
+.pill-toggle:hover {
+  -fx-background-color: #444444;
+}
+
+/* Theme Switcher Buttons */
+.themeSwitcherButtons {
+  -fx-background-color: transparent;
+  -fx-text-fill: #FFFFFF;
+  -fx-font-size: 14px;
+  -fx-background-radius: 20;
+  -fx-border-radius: 20;
+  -fx-border-color: transparent;
+  -fx-border-width: 1px;
+  -fx-padding: 5 14;
+  -fx-cursor: hand;
+}
+.themeSwitcherButtons:selected {
+  -fx-background-color: rgba(255, 255, 255, 0.1);
+  -fx-text-fill: #FFFFFF;
+  -fx-padding: 6 16;
+}
+.themeSwitcherButtons:hover {
+  -fx-background-color: #444444;
+}
+
+.lightButton {
+  -fx-background-image: url('Icons/lightIconDM.png');
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: left 5px center;
+}
+
+.darkButton {
+  -fx-background-image: url('Icons/darkIconDM.png');
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: left 5px center;
+}
+
+.themeSwitcher {
+  -fx-padding: 2 2;
+  -fx-background-radius: 20;
+  -fx-border-radius: 20;
+  -fx-background-color: rgba(255, 255, 255, 0.04);
+}
+
+.sidebar {
+  -fx-background-color: #222327;
+  -fx-border-color: #000000;
+  -fx-border-width: 0 1 0 0;
+}
+
+.sidebarLines {
+  -fx-stroke: rgba(255, 255, 255, 0.1);
+}
+
+.text {
+  -fx-text-fill: #fff;
+}
+
+.container {
+  -fx-background-color: #2A2B2F;
+  -fx-border-color: rgb(0, 0, 0);
+  -fx-border-width: 0 1 0 0;
+}
+
+.loginRegisterLabel {
+  -fx-font-style: "Arial";
+  -fx-font-size: 24;
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+}
+
+.issueBoardColumContainer {
+  -fx-background: #24262C;
+  -fx-background-color: #24262C;
+  -fx-padding: 15;
+  -fx-background-radius: 20;
+}
+
+.issue {
+  -fx-background-color: #292B31;
+  -fx-background-radius: 10px;
+  -fx-border-radius: 10px;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0, 0, 1);
+}
+
+.statCard {
+  -fx-background-color: rgba(59, 59, 59, 0.5);
+  -fx-background-radius: 10;
+}
+
+.statContainer {
+  -fx-background-color: #2A2B2F;
+}
